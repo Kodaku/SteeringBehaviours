@@ -1447,12 +1447,6 @@ MonoBehaviour:
   m_Damping: 0.6
   m_DampingWhenOccluded: 0.6
   m_OptimalTargetDistance: 0
---- !u!1 &1384218444 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5237541670593397048, guid: fa1d657fc738f3e46a63783a32456624,
-    type: 3}
-  m_PrefabInstance: {fileID: 5237541669293260404}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1384218445 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5237541670593397049, guid: fa1d657fc738f3e46a63783a32456624,
@@ -2143,29 +2137,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5237541670093990270}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fcb99e5e1fadf4419a15f3f5af663c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 5237541670093990268}
-  target: {fileID: 1384218444}
-  maxSpeed: 6
-  turnSmoothTime: 0.1
---- !u!114 &5237541670093990272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5237541670093990270}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db0b2ce00de2ce04ea24b1ed3a00d535, type: 3}
+  m_Script: {fileID: 11500000, guid: 1399a7ace11b5fa4c936774d08f46add, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 5237541670093990268}
-  target: {fileID: 1384218444}
-  maxSpeed: 6
-  satisfactionRadius: 10
-  turnSmoothTime: 0.25
+  wanderOffset: 10
+  wanderRadius: 5
+  wanderRate: 1
+  maxAcceleration: 6
